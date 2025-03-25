@@ -1,9 +1,8 @@
-# Programacion-ISTEA
+Programacion-ISTEA
 
 La idea de este repositorio es subir los comandos que se vayan viendo en la cursada y ademas los ejercicios.
 
-Unidad 1
-INTRODUCCION A PYTHON Y A LA PROGRAMACION 
+Unidad 1 INTRODUCCION A PYTHON Y A LA PROGRAMACION (Teoria)
 
 PROGRAMA
 Un programa informático o programa de computadora es una secuencia de instrucciones u órdenes basadas en un lenguaje de programación que una computadora interpreta para resolver un problema o una función específica.
