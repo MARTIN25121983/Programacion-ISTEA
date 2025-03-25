@@ -21,7 +21,24 @@ print("Hola Mundo\’Hola Python") ## Inserta comilla simple
 
 print("Hola", "Python", "Martin") ## Se puede pasar varios argumentos dentro de la funcion print
 
+##Argumento end
+print("Hola", end="-") #En este caso end="-" por ende el resultado es Hola-Python
+print("Python")
 
+##Argumento sep (Este argumento especifica qué carácter (o cadena de caracteres) se debe utilizar para separar múltiples argumentos posicionales en la salida.)
+print("Python", "es", "Genial", sep="-")
+
+##Combinando sep y end  
+print("Aprender", "Python","es", "genial", sep="->", end="!!!\n")
+
+##Funcion Type 
+print(type("Hola Mundo")) ##Nos indica el tipo de dato.
+
+##Tipos de datos
+edad = 25 # El número 25 es del tipo entero 
+precio = 19.99 # El número 19.99 es del tipo punto flotante
+nombre = "Ana" # El texto "Ana" es del tipo cadena de caracteres 
+es_estudiante = True # El valor True es del tipo booleano
 
 
 
