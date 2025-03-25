@@ -1,2 +1,2 @@
-##Tipo de Variables Unidad 2##
+##Unidad 2 TIPOS DATOS | OPERADORES | VARIABLES | COMENTARIOS
 
