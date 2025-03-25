@@ -14,4 +14,14 @@ En cambio si queremos agregar un comentario de varias líneas debemos comenzar c
 ##Ejemplo
 print("Hola Mundo\nHola Python") 
 
+print("Hola Mundo\”Hola Python") ##Inserta comillas dobles 
+print("Hola Mundo\tHola Python") ## Tabulacion
+print("Hola Mundo\\Hola Python") ## Inserta barra invertida
+print("Hola Mundo\’Hola Python") ## Inserta comilla simple
+
+print("Hola", "Python", "Martin") ## Se puede pasar varios argumentos dentro de la funcion print
+
+
+
+
 
