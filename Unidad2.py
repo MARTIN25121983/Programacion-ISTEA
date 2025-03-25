@@ -35,10 +35,12 @@ print("Aprender", "Python","es", "genial", sep="->", end="!!!\n")
 print(type("Hola Mundo")) ##Nos indica el tipo de dato.
 
 ##Tipos de datos
-edad = 25 # El número 25 es del tipo entero 
-precio = 19.99 # El número 19.99 es del tipo punto flotante
-nombre = "Ana" # El texto "Ana" es del tipo cadena de caracteres 
-es_estudiante = True # El valor True es del tipo booleano
+edad = 25 # El número 25 es del tipo entero (int)
+precio = 19.99 # El número 19.99 es del tipo punto flotante (float)
+nombre = "Ana" # El texto "Ana" es del tipo cadena de caracteres  (str)
+es_estudiante = True, False # El valor True es del tipo booleano (bool)
+
+##Operdores Aritmeticos
 
 
 
