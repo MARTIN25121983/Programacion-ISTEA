@@ -41,6 +41,37 @@ nombre = "Ana" # El texto "Ana" es del tipo cadena de caracteres  (str)
 es_estudiante = True, False # El valor True es del tipo booleano (bool)
 
 ##Operdores Aritmeticos
+##Suma
+suma=(8+5)
+print(suma) ## Realiza la suma entre los argumentos.
 
+##Resta
+resta=8-5
+print(resta)
 
+##Multiplicacion(*)
+multiplicacion=8*5
+print(multiplicacion)
+
+##Division Siempre devuelve un valor flotante.
+division=10/2
+print(division)
+
+##Division entera // El resultado es entero
+division_entera=10//3
+print(division_entera)
+
+##Resto o modulo %
+resto=10%3
+print(resto)
+
+##Exponencial ** 
+exponencial= 2**3
+print(exponencial)
+
+##Prioridades de operaciones
+resultado = 2 + 3 * 4 ## realiza la multiplicacion y luego la suma
+print(resultado)
+
+##Variables
 
