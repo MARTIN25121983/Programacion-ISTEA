@@ -49,6 +49,9 @@ Interpretación: El código fuente se traduce línea por línea durante su ejecu
 
 COMPARACION ENTRE COMPILADOR E INTERPRETACION
 
+![image](https://github.com/user-attachments/assets/b286e2c2-b6e9-47fd-8a4c-04e0178a2801)
+
+
 Python: es un lenguaje de programación de alto nivel, interpretado, orientado a objetos, de código abierto, y de uso generalizado con semántica dinámica. Se utiliza ampliamente para la programación de propósito general, abarcando desde desarrollo web hasta análisis de datos, inteligencia artificial, automatización en servidores y más.
 
 Comando para saber que versión de Python esta instalada
