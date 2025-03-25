@@ -1,7 +1,5 @@
 ##Unidad 2 TIPOS DATOS | OPERADORES | VARIABLES | COMENTARIOS
 
 
-##prueba
-
 
 
