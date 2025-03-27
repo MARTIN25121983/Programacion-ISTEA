@@ -73,6 +73,48 @@ print(exponencial)
 resultado = 2 + 3 * 4 ## realiza la multiplicacion y luego la suma
 print(resultado)
 
-##Variables 
+##Variables Las variables son como contenedores que permiten guardar datos y recuperarlos cuando los necesitemos. 
+## El nombre "variable" se debe a que su contenido puede cambiar o "variar" a lo largo de la ejecución del programa.
 
+"""Lista de palabras reservadas en Python 
+Python tiene un conjunto de palabras reservadas que no puedes usar como nombres de variables. 
+En la mayoria de las versiones son las siguientes:   
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 
+'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 
+'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 
+'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']"""
+
+x=10 ##Variable x que tiene en valor de 10
+print(x)
+
+x=5
+x=x+2
+print(x)
+
+x=10
+x+=2
+print(x)
+
+"""
+Operadores Abreviados
+
++=  x+=3 x=x+3
+-=  x-=2 x=x-2
++*  x*=4 x=x*4
+/=  x/=2 x=x/2
+//= x//=3 x=x//3
+%=  x%=5 x=x%5
+**= x**=2 x=x**2
+"""
+
+##Input Siempre lo toma como string
+nombre = input() ## En este caso el input esta vacio
+print("Hola, " + nombre) ##Luego de ejecutarlo debemos escribir y luego nos imprime en pantalla
+
+nombre = input("Ingrese su nombre ") # Se solicita el input al usuario
+print("Hola, " + nombre, end="!!") #Combinacion de variable ya definida, ingresar una variable y luego usar el end
+
+edad=input("Ingrese su edad ") ##Solicita informacion al usuario
+print("Su edad es de "+ edad + " años") ##Imprime en pantalla las variables mas el dato del usuario
+print(type(edad)) ##Nos indica la clase de variable
 
