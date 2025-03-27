@@ -73,7 +73,6 @@ print(exponencial)
 resultado = 2 + 3 * 4 ## realiza la multiplicacion y luego la suma
 print(resultado)
 
-##Variables
-
+##Variables 
 
 
