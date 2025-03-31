@@ -110,3 +110,13 @@ elif alumno_edad > 20:
 else: 
     print("El alumno", alumno_nombre, "es menor de 20 años")
 
+##Ejemplo
+temperatura_actual = 17
+if temperatura_actual > 40:
+    print("La temperatura es muy elevada")
+elif temperatura_actual >30:
+    print("Hace calor")
+elif temperatura_actual > 20:
+    print ("El clima esta templado")
+else:
+    print("Hace frio")
