@@ -87,3 +87,26 @@ alumno_nombre= "Juan" ##Se define variable
 alumno_edad= 18 ##Se define variable
 if alumno_edad >= 18: ##Se coloca la condicion a comparar y se finaliza con :
     print("El alumno", alumno_nombre, "es mayor de edad", end="!!") ##se imprime la conclusion sobre la condicion planteada
+
+##Sentencia Else
+
+alumno_nombre= "Juan" ##Se define variable
+alumno_edad= 17 ##Se define variable
+if alumno_edad >= 18: ##Se coloca la condicion a comparar y se finaliza con :
+    print("El alumno", alumno_nombre, "es mayor de edad", end="!!")
+else: #Se debe colocar el : al finalizar
+    print("El alumno", alumno_nombre, "es menor de edad", end="!!")
+
+##Sentencia Elif Nos permite colocar varias consecuencias
+
+alumno_nombre = "Juan" 
+alumno_edad = 18 
+if alumno_edad > 40: 
+    print("El alumno", alumno_nombre, "es mayor de 40 años") 
+elif alumno_edad > 30: 
+    print("El alumno", alumno_nombre, "es mayor de 30 años") 
+elif alumno_edad > 20: 
+    print("El alumno", alumno_nombre, "es mayor de 20 años") 
+else: 
+    print("El alumno", alumno_nombre, "es menor de 20 años")
+
