@@ -93,10 +93,22 @@ else:
     print("Eres menor de edad")
 
 #8. Pide al usuario que ingrese una temperatura en Celsius. Si la temperatura es mayor o igual a 100, imprime "El agua está hirviendo". Si es menor o igual a 0, imprime "El agua está congelada". De lo contrario, imprime "El agua está en estado líquido".
-
+temperatura_celsius = float(input("Ingrese la temperatura en celsius "))
+if temperatura_celsius >=100:
+    print("El agua esta hirviendo")
+elif temperatura_celsius <=0:
+    print("El agua esta congelada")
+else:
+    print("El agua esta en estado liquido")
 
 #9. Pregunta al usuario que ingrese un número. Si es positivo, imprime "El número es positivo". Si es negativo, imprime "El número es negativo". Si es cero, imprime "El número es cero".
-
+numero= float(input("Ingrese un numero"))
+if numero >0:
+    print("El numero es positivo")
+elif numero <0:
+    print("El numero es negativo")
+else:
+    print("El numero es cero")
 
 ##10. Solicita al usuario que ingrese un número del 1 al 7. Luego, imprime el día de la semana correspondiente (1 para Lunes, 2 para Martes, etc.). Si ingresa un número fuera de ese rango, imprime "Número de día no válido".
 
