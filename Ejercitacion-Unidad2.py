@@ -50,6 +50,11 @@ print (aprobado)
 
 # 8. Calcula el perímetro de un triángulo equilátero con lados de longitud 6. Imprime el resultado.
 
+#Perimetro del triangulo es = A + B + C
+lado = 6
+perimetro_triangulo = 3 * 6
+print("El perimetro del triangulo equilatero es" , perimetro_triangulo)
+
 # 9. Pide al usuario que ingrese su nombre, edad y ciudad de residencia y luego imprime cada uno de esos datos con su respectivo tipo de dato.
 
 # 10. Realiza una operación matemática que involucre paréntesis, multiplicación, suma y resta. Guarda el resultado en una variable y luego imprímela junto con su tipo de dato.
