@@ -1,6 +1,4 @@
 ##Unidad 2 TIPOS DATOS | OPERADORES | VARIABLES | COMENTARIOS
-
-
 """Comentarios -- Son notas, documentacion para darnos una ayuda en un futuro o para que otra persona sepa como esta armado.
 
 un comentario es un texto que comienza con el símbolo # (numeral o almohadilla) y se extiende hasta el final de la línea.
@@ -45,7 +43,7 @@ es_estudiante = True, False # El valor True es del tipo booleano (bool)
 suma=(8+5)
 print(suma) ## Realiza la suma entre los argumentos.
 
-##Resta
+#Resta
 resta=8-5
 print(resta)
 
