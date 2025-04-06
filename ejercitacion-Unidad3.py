@@ -167,7 +167,7 @@ elif IMC >=35 <=40:
     print("Obeso Tipo II")
 else:
 	print("Obeso Tipo III")
-
+    
 #13.Conversión de unidades
 #Escribe un programa que convierta una temperatura dada en grados Celsius a grados Fahrenheit. La fórmula de conversión es `F = C * 9/5 + 32`. Pide al usuario que ingrese una temperatura en Celsius y muestra el resultado en Fahrenheit.
 
