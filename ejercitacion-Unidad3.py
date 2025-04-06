@@ -1,4 +1,3 @@
-
 ##1. Solicita al usuario que ingrese su nombre y su edad. Luego, imprime un mensaje que diga "¡Hola, [nombre]! Tienes [edad] años".
 nombre = (input("Ingrese su nombre "))
 edad = (input("Ingrese su edad "))
@@ -137,15 +136,37 @@ suma = numero_uno + numero_dos
 resta = numero_uno - numero_dos
 multiplicacion = numero_uno * numero_dos
 
-if numero_dos !=0
+print("La suma es=" , suma)
+print("La resta es=" , resta)
+print("La multiplicacion es=" , multiplicacion)
+
+if numero_dos !=0:
     division = numero_uno / numero_dos
-    print("division")
+    print("El resultado de la division es:" , division)
 else:
     print("No es posible realizar la division")
 
 #12.Calculador de IMC
 #Crea un programa que calcule el Índice de Masa Corporal (IMC) de una persona. Pide al usuario su peso en kilogramos y su altura en metros. Luego, calcula el IMC usando la fórmula `IMC = peso / altura**2` y muestra el resultado con un mensaje que indique si el IMC está en el rango normal, bajo peso, sobrepeso, etc.
-
+peso = float(input("Ingrese su peso en kg "))
+altura = float(input("Ingrese su altura en metros "))
+IMC = peso / (altura **2)
+if IMC <= 16:
+	print("Delgadez severa")
+elif IMC >= 16 <=16.99:
+	print("Delgadez moderada")
+elif IMC >= 17 <= 18.49:
+    print("Delgadez aceptable")
+elif IMC >=18.50 <=24.99
+    print("Peso Normal")
+elif IMC >=25 <=29.99:
+    print("Sobrepeso")
+elif IMC >=30 <=34.99:
+    print("Obeso Tipo I")
+elif IMC >=35 <=40:
+    print("Obeso Tipo II")
+else:
+	print("Obeso Tipo III")
 
 #13.Conversión de unidades
 #Escribe un programa que convierta una temperatura dada en grados Celsius a grados Fahrenheit. La fórmula de conversión es `F = C * 9/5 + 32`. Pide al usuario que ingrese una temperatura en Celsius y muestra el resultado en Fahrenheit.
