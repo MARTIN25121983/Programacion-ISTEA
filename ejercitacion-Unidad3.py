@@ -54,10 +54,19 @@ print("#" * 35)
 
 
 #3. Solicita al usuario que ingrese dos números enteros. Luego, convierte estos números a float, realiza la división de ambos y muestra el resultado.
+numero_uno = int(input("Ingrese un numero entero "))
+numero_dos = int(input("Ingrese un numero entero "))
 
+numero_uno_float = float(numero_uno)
+numero_dos_float = float(numero_dos)
 
+division = (numero_uno_float / numero_dos_float)
+print("El resultado es:" , division)
 #4. Pide al usuario que ingrese una cadena que represente un número entero. Convierte esta cadena a un entero usando la función int() y luego suma 10. Imprime el resultado.
-
+cadena = input("Ingrese un numero entero ")
+numero_entero = int(cadena)
+resultado = numero_entero + int(10)
+print("El resultaod es:" , resultado)
 
 #5. Pregunta al usuario que ingrese un número. Si el número es mayor que 10, imprime "El número es mayor que 10". Si es igual a 10, imprime "El número es igual a 10". De lo contrario, imprime "El número es menor que 10".
 
