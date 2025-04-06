@@ -44,6 +44,10 @@ print(type(operacion_compleja))
 
 # 7. Crea una variable booleana que represente si un alumno ha aprobado o no un examen y luego imprime su estado.
 
+nota = 8
+aprobado = nota >=6
+print (aprobado)
+
 # 8. Calcula el perímetro de un triángulo equilátero con lados de longitud 6. Imprime el resultado.
 
 # 9. Pide al usuario que ingrese su nombre, edad y ciudad de residencia y luego imprime cada uno de esos datos con su respectivo tipo de dato.
