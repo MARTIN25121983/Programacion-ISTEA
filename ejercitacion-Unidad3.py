@@ -69,10 +69,21 @@ resultado = numero_entero + int(10)
 print("El resultaod es:" , resultado)
 
 #5. Pregunta al usuario que ingrese un número. Si el número es mayor que 10, imprime "El número es mayor que 10". Si es igual a 10, imprime "El número es igual a 10". De lo contrario, imprime "El número es menor que 10".
-
+numero = float(input("Ingrese un numero "))
+if numero >10:
+    print("El numero es mayor a 10")
+elif numero == 10:
+    print("El numero es igual a 10")
+else:
+    print("El numero es menor a 10")
 
 #6. Solicita al usuario que ingrese dos números y compara si son iguales. Si lo son, imprime "Los números son iguales". De lo contrario, imprime "Los números son diferentes".
-
+numero_uno = float(input("Ingrese un numero "))
+numero_dos = float(input("Ingrese un numero "))
+if numero_uno == numero_dos:
+    print("Los numero son iguales")
+else:
+    print("Los numero son diferentes")
 
 #7. Pregunta al usuario que ingrese su edad. Si la edad es mayor o igual a 18, imprime "Eres mayor de edad". De lo contrario, imprime "Eres menor de edad".
 
