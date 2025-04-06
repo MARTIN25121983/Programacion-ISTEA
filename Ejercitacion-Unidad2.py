@@ -1,8 +1,21 @@
 # 1. Calcula el área de un rectángulo con base 5 y altura 3. Imprime el resultado.
 
+base = 5
+altura = 3
+resultado = base * altura
+print("El area del rectangulo es ",  resultado)
+
 # 2. Convierte la temperatura de Celsius a Fahrenheit. Pide al usuario ingresar la temperatura en Celsius y luego imprime la temperatura equivalente en Fahrenheit.
+temperatura_celsius = float(input("Ingrese la temperatura"))
+temperatura_farenheit = (temperatura_celsius * 9/5) + 32
+print("La temperatura en farenheit es", temperatura_farenheit)
+
 
 # 3. Concatena tu nombre y tu edad como strings y guárdalos en una variable. Luego imprime el tipo de dato de esa variable.
+nombre = "Martin"
+edad = 41
+informacion_personal = nombre + str(edad)
+print(type(informacion_personal))
 
 # 4. Calcula el área de un círculo con radio 4. Imprime el resultado.
 
