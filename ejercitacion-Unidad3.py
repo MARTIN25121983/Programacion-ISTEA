@@ -102,7 +102,7 @@ else:
     print("El agua esta en estado liquido")
 
 #9. Pregunta al usuario que ingrese un número. Si es positivo, imprime "El número es positivo". Si es negativo, imprime "El número es negativo". Si es cero, imprime "El número es cero".
-numero= float(input("Ingrese un numero"))
+numero= float(input("Ingrese un numero "))
 if numero >0:
     print("El numero es positivo")
 elif numero <0:
@@ -111,11 +111,37 @@ else:
     print("El numero es cero")
 
 ##10. Solicita al usuario que ingrese un número del 1 al 7. Luego, imprime el día de la semana correspondiente (1 para Lunes, 2 para Martes, etc.). Si ingresa un número fuera de ese rango, imprime "Número de día no válido".
-
+numero= int(input("Ingrese un numero del 1 al 7 "))
+if numero == 1:
+    print("Es dia Lunes")
+elif numero ==2:
+    print("Es dia martes")
+elif numero ==3:
+    print("Es dia miercoles")
+elif numero ==4:
+    print("Es dia jueves")
+elif numero ==5:
+    print("Es dia viernes")
+elif numero ==6:
+    print("Es dia sabado")
+elif numero ==7:
+    print("Es dia domingo")
+else:
+    print("Numero de dia no valido")
 
 #11.Calculadora básica
 #Crea un programa que tome dos números como entrada y luego imprima la suma, resta, multiplicación y división de esos dos números. Usa operadores aritméticos y asegúrate de manejar casos donde el divisor sea cero.
+numero_uno = float(input("Ingrese un numero "))
+numero_dos = float(input("Ingrese un numero "))
+suma = numero_uno + numero_dos
+resta = numero_uno - numero_dos
+multiplicacion = numero_uno * numero_dos
 
+if numero_dos !=0
+    division = numero_uno / numero_dos
+    print("division")
+else:
+    print("No es posible realizar la division")
 
 #12.Calculador de IMC
 #Crea un programa que calcule el Índice de Masa Corporal (IMC) de una persona. Pide al usuario su peso en kilogramos y su altura en metros. Luego, calcula el IMC usando la fórmula `IMC = peso / altura**2` y muestra el resultado con un mensaje que indique si el IMC está en el rango normal, bajo peso, sobrepeso, etc.
