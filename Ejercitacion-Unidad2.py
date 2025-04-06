@@ -38,6 +38,9 @@ print("La division es =", division)
 
 
 # 6. Almacena el resultado de una operación aritmética compleja en una variable y luego imprime tanto el resultado como el tipo de dato de esa variable.
+operacion_compleja = (3*2) + (4/2) ** 3
+print("El resultado de la operacion compleja es" , operacion_compleja)
+print(type(operacion_compleja))
 
 # 7. Crea una variable booleana que represente si un alumno ha aprobado o no un examen y luego imprime su estado.
 
