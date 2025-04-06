@@ -157,7 +157,7 @@ elif IMC >= 16 <=16.99:
 	print("Delgadez moderada")
 elif IMC >= 17 <= 18.49:
     print("Delgadez aceptable")
-elif IMC >=18.50 <=24.99
+elif IMC >=18.50 <=24.99:
     print("Peso Normal")
 elif IMC >=25 <=29.99:
     print("Sobrepeso")
