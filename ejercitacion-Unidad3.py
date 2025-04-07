@@ -153,17 +153,17 @@ altura = float(input("Ingrese su altura en metros "))
 IMC = peso / (altura **2)
 if IMC <= 16:
 	print("Delgadez severa")
-elif IMC >= 16 <=16.99:
+elif IMC >= 16 and <=16.99:
 	print("Delgadez moderada")
-elif IMC >= 17 <= 18.49:
+elif IMC >= 17 and <= 18.49:
     print("Delgadez aceptable")
-elif IMC >=18.50 <=24.99:
+elif IMC >=18.50 and <=24.99:
     print("Peso Normal")
-elif IMC >=25 <=29.99:
+elif IMC >=25 and <=29.99:
     print("Sobrepeso")
-elif IMC >=30 <=34.99:
+elif IMC >=30 and <=34.99:
     print("Obeso Tipo I")
-elif IMC >=35 <=40:
+elif IMC >=35 and <=40:
     print("Obeso Tipo II")
 else:
     print("Obeso Tipo III")
