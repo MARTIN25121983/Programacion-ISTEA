@@ -170,19 +170,48 @@ else:
     
 #13.Conversión de unidades
 #Escribe un programa que convierta una temperatura dada en grados Celsius a grados Fahrenheit. La fórmula de conversión es `F = C * 9/5 + 32`. Pide al usuario que ingrese una temperatura en Celsius y muestra el resultado en Fahrenheit.
-
+temperatura_celsius = float(input("Ingrese la temperatura "))
+temperatura_farenheit = (temperatura_celsius * 9/5) + 32
+print("La temperatura en farenheit es", temperatura_farenheit)
 
 #14.Juego de adivinanza
 #Crea un programa que pida al usuario que adivine un número entre 1 y 10. El programa debe comparar el número ingresado con uno predefinido (por ejemplo, 7) y decir si es correcto o no. Si es incorrecto, debe dar una pista si el número es mayor o menor.
-
+numero = int(input("Ingrese un numero del 1 al 10 "))
+if numero == 7:
+    print("Es correcto")
+elif numero > 7:
+	print("Es incorrecto, el numero es menor")
+else:
+	print("Es incorrecto, el numero es mayor")
 
 #15.Identificación del tipo de dato
 #Escribe un programa que tome una entrada del usuario y determine su tipo de dato usando la función `type()`. El programa debe imprimir un mensaje indicando si el dato es un número entero, flotante, cadena de texto, etc.
-
+entrada = input("Ingrese la informacion ")
+if entrada == int(entrada):
+    print("Introduzco un entero")
+elif entrada == float(entrada):
+    print("Introduzco un flotante")
+elif entrada == str(entrada):
+    print("Introduzco cadena de texto")
+else:
+    print ("Introduzco un booleano")
 
 #16.Calculador de calificaciones
 #Crea un programa que pida al usuario que ingrese sus calificaciones en tres materias. Luego, calcula el promedio de esas calificaciones e imprime un mensaje que indique si el alumno aprobó (promedio ≥ 6) o no.
+materia_uno = float(input("ingrese la nota de la materia "))
+materia_dos = float(input("ingrese la nota de la materia "))
+materia_tres = float(input("ingrese la nota de la materia "))
 
+promedio = (materia_uno + materia_dos + materia_tres) /3
+
+if promedio >= 6:
+    print("EL alumno aprobo")
+else:
+    print("El alumno no aprobo")
 
 #17.Concatenación de strings
 #Escribe un programa que pida al usuario su nombre y su color favorito. Luego, concatena estos datos en una sola oración que diga "Hola [nombre], tu color favorito es [color]" y la imprima.
+
+nombre = input("Ingrese su nombre ")
+color_favorito = input("Ingrese su color favorito ")
+print("Hola " + nombre + ", tu color favorito es " + color_favorito)
