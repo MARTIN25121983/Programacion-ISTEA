@@ -30,7 +30,7 @@ if promedio >= 6:
     if nota_final >= 6:
         print("El alumno aprobó la materia")
     else:
-        print("El alumno no aprobó el final")
+        print("El alumno no aprobó el final, va a recuperatorio")
 else:
     print("El alumno no tiene aprobada la cursada")
 
