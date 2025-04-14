@@ -50,3 +50,11 @@ for i in range(10):
     pass ## no realiza ninguna accion, se realiza para seguir con el codigo sino da error
     print("Aca sigue")
 
+for numero in range(10):
+    if numero < 5:
+        print(numero)
+    elif numero == 5:
+        print("El numero es 5")
+        break
+    else:
+        pass
