@@ -70,3 +70,15 @@ print(cadena[1]) ##Imprime la letra que se encuentra en posicion 1 que es o
 print(cadena[1:2])##imprime las letras 1 y 2
 
 print(cadena[:-1]) #imprime todo menos la ultima letra de la cadena de texto
+
+if "Hola" in cadena: ##verifica si hola se encuentra en la varibale cadena
+    print("La palabra Hola se encuentra en la cadena")
+else:
+    print("La palabra Hola no se encuentra en la cadena")   
+
+##isdigit verifica si es un numero
+numero_uno = input("Ingrese un numero: " )
+if numero_uno.isdigit(): ##verifica si es un numero
+    print("Es un numero")
+else:
+    print("No es un numero")   
