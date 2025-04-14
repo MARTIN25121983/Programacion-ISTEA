@@ -191,7 +191,6 @@ entrada = input("Ingrese la informacion ")
 if entrada == int(entrada):
     print("Introduzco un entero")
 elif entrada == float(entrada):
-elif entrada == float(entrada):
     print("Introduzco un flotante")
 elif entrada == str(entrada):
     print("Introduzco cadena de texto")
