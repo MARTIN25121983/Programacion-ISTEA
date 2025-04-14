@@ -19,7 +19,7 @@ nota_dos = float(input("Ingrese la nota del primer examen: "))
 nota_tres = float(input("Ingrese la nota del primer examen: "))    
 nota_cuatro = float(input("Ingrese la nota del primer examen: "))    
 
-promedio= (nota_uno + nota_dos + nota_tres + nota_cuatro) / 4
+promedio = (nota_uno + nota_dos + nota_tres + nota_cuatro) / 4
 
 if promedio >= 6:
     print("El alumno tiene aprobada la cursada.")
@@ -27,7 +27,7 @@ if promedio >= 6:
     # Pedir nota del final
     nota_final = float(input("Ingrese la nota del examen final: "))
     
-    if promedio >= 6:
+    if nota_final >= 6:
         print("El alumno aprobó la materia")
     else:
         print("El alumno no aprobó el final")
