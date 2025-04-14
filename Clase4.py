@@ -68,3 +68,5 @@ print(indice) ##Nos imprime la pósicion donde arranca la palabra Mundo
 
 print(cadena[1]) ##Imprime la letra que se encuentra en posicion 1 que es o
 print(cadena[1:2])##imprime las letras 1 y 2
+
+print(cadena[:-1]) #imprime todo menos la ultima letra de la cadena de texto
