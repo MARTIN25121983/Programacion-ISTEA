@@ -43,3 +43,10 @@ for numero in range(10): ##Arranca del 0 al 10 y uno para atras
     print("valor del numero:", numero) ##imprime del 0 al 9
 
 ##for numero (10,20, 2) Va del 2 en 2 del 10 al 20.
+
+## for break
+for i in range(10):
+    print("La variable i vale", i)
+    pass ## no realiza ninguna accion
+    print("Aca sigue")
+
