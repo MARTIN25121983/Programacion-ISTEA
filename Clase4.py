@@ -65,3 +65,5 @@ for numero in range(10):
 cadena =  "Hola Mundo"
 indice= cadena.index("Mundo")
 print(indice) ##Nos imprime la pósicion donde arranca la palabra Mundo
+
+print(cadena[1]) ##Imprime la letra que se encuentra en posicion 1 que es o
