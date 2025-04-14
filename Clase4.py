@@ -58,3 +58,10 @@ for numero in range(10):
         break
     else:
         pass
+
+##Continue cuando lo ve vuelve a al bucle
+##index
+
+cadena =  "Hola Mundo"
+indice= cadena.index("Mundo")
+print(indice) ##Nos imprime la pósicion donde arranca la palabra Mundo
