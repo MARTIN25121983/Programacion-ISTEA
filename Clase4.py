@@ -47,6 +47,6 @@ for numero in range(10): ##Arranca del 0 al 10 y uno para atras
 ## for break
 for i in range(10):
     print("La variable i vale", i)
-    pass ## no realiza ninguna accion
+    pass ## no realiza ninguna accion, se realiza para seguir con el codigo sino da error
     print("Aca sigue")
 
