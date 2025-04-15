@@ -47,3 +47,16 @@ llueve = False
 if not llueve: #al ser la variable falsa al colocar un not se transforma en verdadero o viceversa. 
     print("Podemos salir a caminar.")
 
+##Prioridad de los operadores
+# 1. not (mas alta)
+# 2. and
+# 3. or (mas baja)
+
+# Verificar múltiples condiciones 
+edad = 20 
+salario = 18000 
+clima = "soleado" 
+if edad > 18 and salario > 15000 and (clima == "soleado" or clima == "nublado"): 
+    print("Puedes participar en la actividad al aire libre.") 
+else: 
+    print("No cumples con los requisitos.")
