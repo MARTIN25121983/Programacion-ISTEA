@@ -14,6 +14,11 @@ En caso de que sea menor a 6, debe avisar que el alumno no aprobó el final de l
 
 """
 
+y = 10
+x = y + 1 
+print(x)
+
+
 nota_uno = float(input("Ingrese la nota del primer examen: "))    
 nota_dos = float(input("Ingrese la nota del primer examen: "))    
 nota_tres = float(input("Ingrese la nota del primer examen: "))    
