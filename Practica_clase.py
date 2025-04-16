@@ -1,4 +1,16 @@
 """
+Script 2
+Escriba un programa que pida un año y que escriba si es bisiesto o no.
+Se recuerda que los años bisiestos son múltiplos de 4, pero los múltiplos de 100 no lo son, aunque los múltiplos de 400 sí.
+"""
+año_bisiesto = int(input("Ingrese el año: "))
+if (año_bisiesto % 4 == 0 and año_bisiesto % 100 !=0) or (año_bisiesto % 400 ==0):
+	print(año_bisiesto, "es bisiesto")
+else:
+	print(año_bisiesto, "no es bisiesto")
+
+"""
+Script 3
 Vamos a realizar un programa que nos va a decir la nota promedio de un alumno en todo el cuatrimestre.
 Dentro del cuatrimestre son 4 examenes y luego un examen final.
 La aprobación del cuatrimestre es con nota 6 o mayor de promedio.
@@ -13,11 +25,6 @@ Luego preguntar por nota del final (en caso de que haya aprobado la cursada), si
 En caso de que sea menor a 6, debe avisar que el alumno no aprobó el final de la materia, y puede rendir recuperatorio.
 
 """
-
-y = 10
-x = y + 1 
-print(x)
-
 
 nota_uno = float(input("Ingrese la nota del primer examen: "))    
 nota_dos = float(input("Ingrese la nota del primer examen: "))    
