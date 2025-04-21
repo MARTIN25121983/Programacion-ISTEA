@@ -68,4 +68,10 @@ nombres.append("Jose") ##agrega el elemento Jose al final de la lista nombres
 print(nombres) ##imprime la lista nombres con el nuevo elemento agregado
 nombres.insert(2, "Carlos") ##agrega el elemento Carlos en la posicion 2 de la lista nombres
 print(nombres) ##imprime la lista nombres con el nuevo elemento agregado    
+nombres.remove("Carlos") ##elimina el elemento Carlos el primero que figura de la lista nombres
+print(nombres) ##imprime la lista nombres sin el elemento Carlos
+nombres.pop(2) ##elimina el elemento de la posicion 2 de la lista nombres
+print(nombres) ##imprime la lista nombres sin el elemento de la posicion 2
+nombres.count("Juan") ##cuenta la cantidad de veces que aparece el elemento Juan en la lista nombres
+
 
