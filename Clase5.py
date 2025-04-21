@@ -66,4 +66,6 @@ print(nombres[-1]) ##imprime el ultimo elemento de la lista nombres
 print(nombres[1:3]) ##imprime los elementos de la lista nombres desde la posicion 1 a la 3 (sin incluir la 3)   
 nombres.append("Jose") ##agrega el elemento Jose al final de la lista nombres
 print(nombres) ##imprime la lista nombres con el nuevo elemento agregado
+nombres.insert(2, "Carlos") ##agrega el elemento Carlos en la posicion 2 de la lista nombres
+print(nombres) ##imprime la lista nombres con el nuevo elemento agregado    
 
