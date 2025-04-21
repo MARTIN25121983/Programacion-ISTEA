@@ -34,7 +34,6 @@ def texto_imprimir(texto, caracter_cuadro ):
 texto_imprimir("Ingrese un valor numerico: ", "-*") #Invocar la funcion para que se ejecute
 
 
-
 def sumar(numero_uno, numero_dos): ##definicion de la funcion sumar y los parametros que recibe
     total = numero_uno + numero_dos ##suma los dos numeros
     return total ##devuelve el resultado de la suma
@@ -45,4 +44,8 @@ texto_imprimir=("Ingrese el segundo numero: ", "-") ##llama a la funcion texto_i
 numero_dos = int(input()) ##pide al usuario que ingrese un valor y lo convierte a entero
 
 total = sumar(numero_uno, numero_dos) ##llama a la funcion sumar para que se ejecute
-print("El resultado de la suma es: ", total)##imprime el resultado de la suma   
+print("El resultado de la suma es: ", total)##imprime el resultado de la suma 
+
+##Listas
+##Es una variable que puede almacenar varios valores, se definen con corchetes [] y separados por comas
+##Ejemplo de lista
