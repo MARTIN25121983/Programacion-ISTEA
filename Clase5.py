@@ -74,4 +74,11 @@ nombres.pop(2) ##elimina el elemento de la posicion 2 de la lista nombres
 print(nombres) ##imprime la lista nombres sin el elemento de la posicion 2
 nombres.count("Juan") ##cuenta la cantidad de veces que aparece el elemento Juan en la lista nombres
 
+#DEvolver lista en una funcion  
+def devolver_lista(): ##definicion de la funcion devolver_lista
+    nombres = ["Juan", "Pedro", "Maria", "Ana", "Luis"] ##definicion de la lista dentro de la funcion
+    return nombres ##devuelve la lista
+todos_los_nombres = devolver_lista() ##llama a la funcion devolver_lista y almacena el resultado en la variable todos_los_nombres
+print(todos_los_nombres) ##imprime la lista devuelta por la funcion devolver_lista  
+
 
