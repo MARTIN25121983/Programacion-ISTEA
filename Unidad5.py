@@ -119,3 +119,119 @@ Funciona solo con strings.
 """
 
 #count()
+cadena = "Python es un lenguaje de código abierto"  
+letra_e_cantidad = cadena.count("e") ## Cuenta la cantidad de veces que aparece la letra "e" en la cadena
+print("Cantidad de veces que aparece la letra e es: " + str(letra_e_cantidad)) ## Imprime la cantidad de veces que aparece la letra "e" en la cadena
+
+#isdigit() ## Verifica si la cadena es un número
+#upper() / lower() ## Convierte la cadena a mayúsculas o minúsculas
+
+cadena = "Python es un lenguaje de código abierto"   
+cadena_mayuscula = cadena.upper() ## Convierte la cadena a mayúsculas
+print(cadena_mayuscula)  ## Imprime la cadena en mayúsculas
+cadena_minuscula = cadena.lower() ## Convierte la cadena a minúsculas
+print(cadena_minuscula) ## Imprime la cadena en minúsculas
+
+#lstrip() ## Elimina los espacios en blanco a la izquierda de la cadena 
+#rstrip() ## Elimina los espacios en blanco a la derecha de la cadena
+
+cadena = "Python es un lenguaje de alto nivel" 
+cadena_centrado_izquierda = cadena.ljust(50, '-') #Esta función alinea la cadena a la izquierda y completa con '-' hasta 50 caracteres
+print(cadena_centrado_izquierda) 
+cadena_centrado_derecha = cadena.rjust(50, '-')  #Esta función alinea la cadena a la derecha y completa con '-' hasta 50 caracteres
+print(cadena_centrado_derecha)
+
+#replace() ## Reemplaza una subcadena por otra en la cadena
+cadena = "Python es un lenguaje orientado a objetos" 
+print(cadena) 
+cadena_reemplazada_php = cadena.replace("Python", "PHP") ## Reemplaza "Python" por "PHP" en la cadena
+print(cadena_reemplazada_php) 
+cadena_reemplazada_javascript = cadena.replace("Python", "Javascript") ## Reemplaza "Python" por "Javascript" en la cadena
+print(cadena_reemplazada_javascript) 
+
+#Modulos ## Modulo es un archivo que contiene definiciones y declaraciones de Python.
+# Un módulo puede definir funciones, clases y variables. Un módulo puede incluir código ejecutable.
+# Un módulo se puede importar en otro módulo o en un script de Python.
+
+#import Importa el módulo
+#Importar modulo math y sys
+
+import math # Importa el módulo math 
+import sys # Importa el módulo sys
+# o de la siguiente forma  
+import math, sys # Importa los módulos math y sys
+
+#from Importa funciones específicas de un módulo
+#Ejemplo: 
+from math import cos, radians, pi # Importa las funciones cos, radians y pi del módulo math
+print(math.pi) # Imprime el valor de pi
+
+#dir() ## Devuelve una lista de los nombres de los atributos y métodos de un objeto.
+
+import math # Importa el módulo math
+print(dir(math)) # Imprime la lista de los nombres de los atributos y métodos del módulo math
+
+#Funciones modulo math 
+"""
+ceil(x) → Redondea el valor ingresado como argumento a su valor entero mayor más cercano. 
+floor(x) → Redondea el valor ingresado como argumento a su valor entero menor más cercano. 
+pow(x) → Hace el exponente. 
+sqrt(x) → Resuelve la raíz cuadrada.
+"""
+#Ejemplos
+import math   
+numero = 4.6 
+print("Numero original: ", numero) ## Imprime el número original
+print("Aplicamos ceil() -> ", math.ceil(numero)) ## Redondea el número al entero mayor más cercano
+print("Aplicamos floor() -> ", math.floor(numero)) ## Redondea el número al entero menor más cercano
+print("Aplicamos pow() -> ", math.pow(numero, 2)) ## Eleva el número al cuadrado
+print("Aplicamos sqrt() -> ", math.sqrt( math.floor(numero) )) ## Resuelve la raíz cuadrada del número redondeado al entero menor más cercano
+
+"""
+Otras funciones
+abs(x) →  Devuelve el valor absoluto del valor ingresado como argumento 
+(convierte los valores negativos en positivos, los que ya son positivos 
+no se ven afectados). 
+
+round(x,y) → Devuelve un número flotante obtenido luego de redondear el 
+primer valor ingresado como argumento. El segundo argumento le 
+especifica a la función la cantidad de decimales que se desea conservar, 
+este valor es opcional, y en caso de no ser especificado, su valor por 
+defecto es 0. 
+"""
+
+#Modulo random ## Genera números aleatorios
+## La función general llamada random() (no debe confundirse con el nombre del módulo) produce un 
+## número flotante x entre el rango (0.0, 1.0) - en otras palabras: (0.0 <= x < 1.0).
+##Ejemplo random()
+
+import random # Importa el módulo random  
+print(" Vamos a imprimir diez números random entre 0 y 1") ## Imprime el mensaje  
+for i in range(10):     ## Recorre el rango del 0 al 10
+    print(random.random() * 100) ## Imprime un número aleatorio entre 0 y 100
+
+random.seed(3) ## Establece la semilla para el generador de números aleatorios
+print("Serie #1:", random.random(), random.random(), random.random()) #
+random.seed(3) ## Establece la semilla para el generador de números aleatorios
+print("Serie #2:", random.random(), random.random(), random.random()) # Imprime la segunda serie de números aleatorios
+
+#Valores enteros aleatorios
+"""
+randrange(fin) 
+randrange(inicio, fin) 
+randrange(inicio, fin, secuencia) 
+randint(izquierda, derecha)
+"""
+
+for i in range(10): ## Recorre el rango del 0 al 10
+    print("Aleatorio del 1 al 10 -> ", random.randint(1, 10)) ## Imprime un número aleatorio entre 1 y 10
+    print("Aleatorio del 20 al 30 -> ", random.randrange(20, 30)) ## Imprime un número aleatorio entre 20 y 30
+    print('---------------------------') ## Imprime una línea de separación
+
+#choice()  ## Devuelve un elemento aleatorio de una secuencia no vacía.
+#sample()  ## Devuelve una lista de elementos aleatorios de una secuencia no vacía.
+
+dado = [1, 2, 3, 4, 5, 6]  ## Crea una lista con los números del dado
+  
+print("Dado: ", random.choice(dado)) ## Imprime un número aleatorio del dado
+print(random.sample(dado, 3)) ## Imprime una lista de 3 números aleatorios del dado
