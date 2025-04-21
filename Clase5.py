@@ -46,6 +46,24 @@ numero_dos = int(input()) ##pide al usuario que ingrese un valor y lo convierte 
 total = sumar(numero_uno, numero_dos) ##llama a la funcion sumar para que se ejecute
 print("El resultado de la suma es: ", total)##imprime el resultado de la suma 
 
+##Scope de las funciones # Alcance de las funciones 
+##Las variables definidas dentro de una funcion no pueden ser utilizadas fuera de la funcion
+
 ##Listas
 ##Es una variable que puede almacenar varios valores, se definen con corchetes [] y separados por comas
-##Ejemplo de lista
+##Ejemplo de lista. La lista puede almacenar diferentes tipos de datos, como enteros, cadenas, booleanos, etc.
+
+nombres = ["Juan", "Pedro", "Maria", "Ana", "Luis"] ##definicion de la lista nombres
+libreria=["boligrafo", "goma", "lapiz", "marcador"] ##definicion de la lista libreria
+print(type(nombres)) ##imprime el tipo de la variable nombres
+print(type(libreria)) ##imprime el tipo de la variable libreria
+print("tipo de dato :", type(nombres)) ##imprime el tipo de dato de la variable nombres
+
+print(len(nombres)) ##imprime la cantidad de elementos de la lista nombres
+print(len(libreria)) ##imprime la cantidad de elementos de la lista libreria
+print(nombres[0]) ##imprime el primer elemento de la lista nombres
+print(nombres[-1]) ##imprime el ultimo elemento de la lista nombres
+print(nombres[1:3]) ##imprime los elementos de la lista nombres desde la posicion 1 a la 3 (sin incluir la 3)   
+nombres.append("Jose") ##agrega el elemento Jose al final de la lista nombres
+print(nombres) ##imprime la lista nombres con el nuevo elemento agregado
+
