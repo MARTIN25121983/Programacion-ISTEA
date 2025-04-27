@@ -1,5 +1,5 @@
 nombre = "Juan "
-apellido = "Pablo"
+apellido = "Perez"
 
 def saludar():
     print("Hola, soy " ,  nombre , apellido)
