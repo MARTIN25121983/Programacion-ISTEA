@@ -74,6 +74,9 @@ for i in range(10): ##Ejecuta 10 veces
 dado =[1, 2, 3, 4, 5, 6] #Lista de numeros del dado
 print("tiro el dado y sale: " , random.choice(dado)) #Muestra un numero aleatorio de la lista dado
 
+#sample() #Elige varios elementos aleatorios de una lista
 print("Tiro el dado 3 veces: " , random.sample(dado, 3)) #Muestra 3 numeros aleatorios de la lista dado
+
+
 
 
