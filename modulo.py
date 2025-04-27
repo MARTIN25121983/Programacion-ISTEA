@@ -25,4 +25,23 @@ numero= math.ceil(numero_original) #Redondea hacia arriba el 3.4 y lo convierte 
 print("numero" , numero) #Muestra el resultado de la variable numero
 print(type(numero)) #Muestra el tipo de dato de la variable numero
 
+#Otra manera de importar un modulo
+from math import ceil, pow #Importa las funciones ceil y pow del modulo math #ceil() #Redondea hacia arriba. #pow() #Eleva un numero a otro numero
+numero_original = 3.4 #Variable de tipo float
+print(type(numero_original)) #Muestra el tipo de dato de la variable numero_original
+numero= ceil(numero_original) #Redondea hacia arriba el 3.4 y lo convierte en 4
+print("numero" , numero) #Muestra el resultado de la variable numero
+print(type(numero)) #Muestra el tipo de dato de la variable numero
+
+# ver todo el contenido de un modulo
+print(dir(math)) #Muestra todo el contenido del modulo math
+
+numero_elevado = pow(numero_original, 2) #Eleva el numero_original a la potencia 
+print (numero_elevado) #Muestra el resultado de la variable numero_elevado
+print(type(numero_elevado)) #Muestra el tipo de dato de la variable numero_elevado
+
+#Importar modulo random
+import random #Modulo de python nativo de numeros aleatorios
+print(dir(random)) #Muestra todo el contenido del modulo random
+
 
