@@ -44,4 +44,36 @@ print(type(numero_elevado)) #Muestra el tipo de dato de la variable numero_eleva
 import random #Modulo de python nativo de numeros aleatorios
 print(dir(random)) #Muestra todo el contenido del modulo random
 
+print("vamos a imprimir numero aleatorios entre 0 y 1 ")
+print(random.random()) #Muestra un numero aleatorio entre 0 y 1
+
+#Imprimir un numero aleatorio entre 0 y 10
+for i in range(10):
+    print(random.random()*100) #Muestra un numero aleatorio entre 0 y 10
+
+random.seed(3) #Fija la semilla para que los numeros aleatorios sean siempre los mismos
+print("un numero aleatorio con semilla 3" , random.random()) #Muestra un numero aleatorio entre 0 y 1. Siempre sera el mismo numero aleatorio
+
+#randrange() #Genera un numero aleatorio entre dos numeros
+
+print(random.randrange(20, 30, 2)) #Muestra un numero aleatorio entre 20 y 30 y el paso es de 2 en 2
+print(random.randrange(20, 30)) #Muestra un numero aleatorio entre 20 y 30
+print(random.randrange(20, 30)) #Muestra un numero aleatorio entre 20 y 30
+print(random.randrange(20, 30)) #Muestra un numero aleatorio entre 20 y 30
+print(random.randrange(20, 30)) #Muestra un numero aleatorio entre 20 y 30
+
+for i in range(10):
+    print(random.randrange(20, 30, 2)) #Muestra un numero aleatorio entre 20 y 30
+
+
+for i in range(10): ##Ejecuta 10 veces
+    print(random.randrange(20) ) #Muestra un numero aleatorio entre 0 y 20
+
+#choice() #Elige un elemento aleatorio de una lista
+
+dado =[1, 2, 3, 4, 5, 6] #Lista de numeros del dado
+print("tiro el dado y sale: " , random.choice(dado)) #Muestra un numero aleatorio de la lista dado
+
+print("Tiro el dado 3 veces: " , random.sample(dado, 3)) #Muestra 3 numeros aleatorios de la lista dado
+
 
