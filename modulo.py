@@ -3,6 +3,26 @@
 # al ser un codigo muy largo se divide por partes (en modulos) para que sea mas facil de entender
 
 #Ejemplo de modulo Se va a trabajar sobre el archivo modulo.prueba.py
+#Importar un modulo nuestro personzalizado
+
 import modulo_prueba #Trae el archivo en memoria
 
 modulo_prueba.saludar()  #Llama a la funcion saludar del modulo modulo_prueba
+
+print("Mi nombre es: ", modulo_prueba.nombre) ##Llama al modulo_prueba pero al nombre solamente 
+print("Mi apellido es: ", modulo_prueba.apellido) ##Llama al modulo_prueba pero al apellido solamente
+
+#Importar un modulo de python
+
+import math #Modulo de python nativo de natematica
+#ceil() #Redondea hacia arriba
+print (math.ceil(3.2)) #Redondea hacia arriba el 3.2 y lo convierte en 4
+
+import math
+numero_original = 3.4
+print(type(numero_original))
+numero= math.ceil(numero_original) #Redondea hacia arriba el 3.4 y lo convierte en 4
+print("numero" , numero) #Muestra el resultado de la variable numero
+print(type(numero)) #Muestra el tipo de dato de la variable numero
+
+
