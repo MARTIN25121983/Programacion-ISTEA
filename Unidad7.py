@@ -59,3 +59,37 @@ print(numbers)
 numbers= [1,2,3,4,5]
 numbers.reverse() #Invierte el orden la lista
 print(numbers)
+
+#Funcion sorted  ordenar una lista sin modificar el orden original de sus elementos,
+# Ordenamiento básico de una lista 
+numeros = [5, 2, 8, 1, 9] 
+ordenados = sorted(numeros)
+print(ordenados)  # [1, 2, 5, 8, 9] 
+  
+# Ordenamiento inverso 
+ordenados_inverso = sorted(numeros, reverse=True) 
+print(ordenados_inverso)  # [9, 8, 5, 2, 1] 
+  
+# Ordenamiento de strings 
+palabras = ["python", "javascript", "ruby", "java"] 
+ordenadas = sorted(palabras) 
+print(ordenadas)  # ['java', 'javascript', 'python', 'ruby']
+
+#En listas se puede utilizar bucle for
+
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+for numero in numeros: 
+    print(numero) 
+
+multiplos = [7, 14, 21, 28, 35] 
+total = 0 
+for numero in multiplos: #Recorre la lista
+    total += numero  #Realiza la suma de los elementos de la lista
+  
+print(total)
+
+#intercambiar valores
+a=1
+b=2
+a,b=b,a #Se intercambia los valores
+print(a,b) #Imprime los valores intercambiados en pantalla
