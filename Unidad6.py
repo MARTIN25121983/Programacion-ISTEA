@@ -70,3 +70,11 @@ def sumar_todos(*numeros): # se define la funcion y al agregar * se permite vari
 print(sumar_todos(1, 2, 3, 4, 5))  # Imprimirá 15 
 print(sumar_todos(10, 20))  # Imprimirá 30 
 
+#`*args` indica que la función puede recibir cualquier cantidad de valores y los agrupa en una tupla. 
+##Para recibir argumentos con nombre, usamos `**kwargs`
+
+def mostrar_info(**datos):  # 
+    for clave, valor in datos.items(): 
+        print(clave, valor) 
+  
+mostrar_info(nombre="Juan", edad=25, ciudad="Madrid")
