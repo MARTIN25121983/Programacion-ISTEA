@@ -93,3 +93,34 @@ a=1
 b=2
 a,b=b,a #Se intercambia los valores
 print(a,b) #Imprime los valores intercambiados en pantalla
+
+lista = [1, 2, 3, 4, 5] 
+lista[0], lista[4] = lista[4], lista[0] 
+  
+# Intercambiamos el segundo y penúltimo 
+ 
+lista[1], lista[3] = lista[3], lista[1] 
+print(lista)  # Salida: [5, 4, 3, 2, 1] 
+
+#Encontrando extremos: `min()` y `max()` 
+#Son como el termómetro de tus números. Miden quién es el más pequeño y el más grande en la lista. 
+temperaturas = [23, 17, 25, 19, 20] 
+  
+print(min(temperaturas))  # 17 → El día más frío 
+print(max(temperaturas))  # 25 → El día más caluroso 
+#Funciona con: - Números enteros y decimales - Listas de letras (comparando orden alfabético) 
+letras = ['z', 'a', 'm'] 
+print(min(letras)) 
+
+#Creando listas numéricas: `range()` + `list()` 
+# Del 0 al 4 (5 no se incluye) 
+print(list(range(5))) 
+# [0, 1, 2, 3, 4] 
+  
+# Del 2 al 6 (7 no se incluye) 
+print(list(range(2, 7))) 
+# [2, 3, 4, 5, 6] 
+  
+# De 10 a 50, de 5 en 5 
+print(list(range(10, 51, 5))) 
+# [10, 15, 20, 25, 30, 35, 40, 45, 50]
