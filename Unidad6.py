@@ -42,4 +42,31 @@ def imprimir_pantalla( texto_a_imprimir ): ##Defimos la funcion
     
 texto = "Hola Mundo, pasando parametros!" #se define la variable texto
 
-imprimir_pantalla(suma_valor) #Invocamos la funcion y le pasamos el texto como parametro
+imprimir_pantalla(texto) #Invocamos la funcion y le pasamos el texto como parametro
+
+#return de una funcion # Ejemplo de una funcion que retorna un valor
+
+def suma(a, b):  #Definimos la funcion suma que recibe dos argumentos a y b
+    return a + b #Retorna la suma de a y b
+numero_uno = input("Ingrese un valor: ")  #Solicitamos al usuario que ingrese un valor
+numero_uno = int(numero_uno) #Convertimos el valor ingresado a entero
+numero_dos = input("Ingrese otro valor: ") #Solicitamos al usuario que ingrese otro valor
+numero_dos = int(numero_dos) #Convertimos el valor ingresado a entero
+print("La suma de los valores es: ", suma(numero_uno, numero_dos)) #Imprimimos el resultado de la suma de los dos valores ingresados por el usuario
+
+#Otro ejemplo
+def sumar(a, b): 
+    return a + b 
+ 
+resultado = sumar(5, 3)  # Pasamos dos valores 
+print(resultado)  # Imprimirá 8 
+
+#Ejemplo para sumar mas de dos valores
+
+def sumar_todos(*numeros): # se define la funcion y al agregar * se permite varios valores
+    total = sum(numeros)  # sum() suma todos los valores 
+    return total 
+ 
+print(sumar_todos(1, 2, 3, 4, 5))  # Imprimirá 15 
+print(sumar_todos(10, 20))  # Imprimirá 30 
+
