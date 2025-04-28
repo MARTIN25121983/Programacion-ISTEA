@@ -86,8 +86,37 @@ def dividir(a, b):
     resultado = a / b  # 'resultado' solo existe dentro de la función 
     return resultado 
 
-division = dividir(10, 2) 
-
+division = dividir(10, 2)  
 print(division)  # Funciona bien 
  
 print(resultado)  # Esto dará un error porque 'resultado' no existe fuera de la función
+
+#variables globales 
+modelo = "Sedan"  # Variable global 
+ 
+def mostrar_modelo(): 
+    print(modelo)  # Podemos acceder a 'modelo' dentro de la función 
+ 
+mostrar_modelo()  # Imprimirá "Sedan" 
+##Si intentamos modificar una variable global dentro de una función sin indicarlo explícitamente, 
+##Python creará una nueva variable local en lugar de cambiar la global: 
+def cambiar_modelo(): 
+    modelo = "SUV"  # Se crea una nueva variable local 
+    print(modelo) 
+   
+  
+cambiar_modelo() 
+print(modelo)  # Seguirá imprimiendo "Sedan", la global no cambió
+
+##Si queremos modificar una variable global desde una función, usamos `global`:
+
+modelo = "Sedan" 
+  
+def cambiar_modelo(): 
+    global modelo  # Indicamos que queremos cambiar la variable global 
+    modelo = "SUV" 
+  
+cambiar_modelo() 
+print(modelo)  # Ahora imprimirá "SUV" 
+
+
