@@ -38,4 +38,24 @@ numero.pop() #Elimina el ultimo elemento por defecto
 numero.pop(2) #Elimina el elemento que se encuentra en la posicion 2
 print(numero)
 
-#Funcion index
+#Funcion index Devuelve la posicion de la primera aparicion de un elemento
+
+colores = ["azul", "blanco", "rojo", "negro", "azul"]
+print(colores.index("azul")) # Nos indica que la posicion de aparicion es 0
+
+#Funcion count Cuenta la cantidad de veces que aparece un objeto
+print(colores.count("azul")) # Indica que aparece dos veces
+
+#Funcion sort  ordena la lista en orden ascendente
+
+numbers=[4,8,6,4,5]
+numbers.sort() # ordena en orden ascendente
+print(numbers)
+
+numbers.sort(reverse=True) #se indica que ordene en orden descendente
+print(numbers)
+
+#Funcion reverse Invierte el orden de la lista
+numbers= [1,2,3,4,5]
+numbers.reverse() #Invierte el orden la lista
+print(numbers)
