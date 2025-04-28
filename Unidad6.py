@@ -73,8 +73,21 @@ print(sumar_todos(10, 20))  # Imprimirá 30
 #`*args` indica que la función puede recibir cualquier cantidad de valores y los agrupa en una tupla. 
 ##Para recibir argumentos con nombre, usamos `**kwargs`
 
-def mostrar_info(**datos):  ## 
+def mostrar_info(**datos):  
     for clave, valor in datos.items():  
         print(clave, valor) 
   
 mostrar_info(nombre="Juan", edad=25, ciudad="Madrid")
+
+#scope #Al crear una variable dentro de la funcion solamente se utiliza ahi dentro
+
+# Definimos una función con variables locales 
+def dividir(a, b): 
+    resultado = a / b  # 'resultado' solo existe dentro de la función 
+    return resultado 
+
+division = dividir(10, 2) 
+
+print(division)  # Funciona bien 
+ 
+print(resultado)  # Esto dará un error porque 'resultado' no existe fuera de la función
