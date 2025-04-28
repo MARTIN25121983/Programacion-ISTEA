@@ -20,6 +20,22 @@ numeros= [1,2,3,4,5,6,7,8,9]
 print(numeros[-1]) # se accedea al 9
 print(numeros[-2]) # se accedea al 8
 
+#Agregar un elemento en la lista numeros
+numeros.append(10) #Se va agregar el 10 como ultimo elemento
+print(numeros)
 
+#funcion insert
+numeros.insert(11,2) #El primer valor es la posicion y luego el elemento agregar. En este caso en el lugar 11 se coloca el 2
+print(numeros)
 
+#funcion remove
+numeros.remove(9) #Se elimina el numero 9 de la lista
+print(numeros)
 
+#Funcion pop
+numero = [1,2,3,4]
+numero.pop() #Elimina el ultimo elemento por defecto
+numero.pop(2) #Elimina el elemento que se encuentra en la posicion 2
+print(numero)
+
+#Funcion index
