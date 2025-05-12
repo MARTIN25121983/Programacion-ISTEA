@@ -1,3 +1,4 @@
+
 # 1. Calcula el área de un rectángulo con base 5 y altura 3. Imprime el resultado.
 base = 5
 altura = 3

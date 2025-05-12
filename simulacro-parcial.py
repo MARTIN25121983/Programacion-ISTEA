@@ -46,3 +46,18 @@ print(es_primo(7))  # True
 print(es_primo(10)) # False
 
 
+
+def interseccion(lista1, lista2):
+    """Devuelve la intersección de dos listas."""
+    return list(set(lista1) & set(lista2))
+
+def diferencia(lista1, lista2):
+    """Devuelve la diferencia entre dos listas."""
+    return list(set(lista1) ^ set(lista2))
+
+# Ejemplo de uso:
+lista_a = [1, 2, 3, 4, 5]
+lista_b = [3, 4, 5, 6, 7]
+
+print("Intersección:", interseccion(lista_a, lista_b))
+print("Diferencia:", diferencia(lista_a, lista_b))
