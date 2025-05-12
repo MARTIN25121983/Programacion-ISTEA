@@ -18,3 +18,19 @@ if "negro" in colores:
 else:
     print("El color negro no esta en la tupla")
 
+#Diccionarios es una coleccion de pares clave-valor. Cada clave es unica. Puede ser int, float o string 
+
+dict_1 = {"nombre": "sara",
+          "apellido": "perez",
+          "edad": 27,          
+          "documento": "27654343",
+          "direccion": "Bulnes 777",
+          "CP": "1212"
+} #Se crea un diccionario
+
+print(dict_1)
+##Hay 4 claves que tiene 4 valores, 1 para cada clave
+
+print(f"EL tipo de objeto de dict_1 es {type(dict_1)}")
+
+
