@@ -30,7 +30,10 @@ dict_1 = {"nombre": "sara",
 
 print(dict_1)
 ##Hay 4 claves que tiene 4 valores, 1 para cada clave
+print(dict_1["direccion"]) #Imprime una de las claves del diccionario
 
 print(f"EL tipo de objeto de dict_1 es {type(dict_1)}")
 
-
+for i in dict_1:
+    print(i)
+#Del elimina algun valor del diccionario
