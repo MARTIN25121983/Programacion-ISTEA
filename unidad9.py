@@ -1,4 +1,23 @@
 #Tratamiento de errores
+import socket
+
+
+def scan_ports(host, start_port, end_port):
+    open_ports = []
+    for port in range(start_port, end_port + 1):
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            s.settimeout(0.5)
+            result = s.connect_ex((host, port))
+            if result == 0:
+                open_ports.append(port)
+    return open_ports
+
+# Ejemplo de uso
+host = '192.168.0.14'
+ports = scan_ports(host, 20, 1024)
+print(f"Puertos abiertos en {host}: {ports}")
+
+
 """
 Tipos de errores
 
