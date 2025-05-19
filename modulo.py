@@ -18,6 +18,7 @@ import math #Modulo de python nativo de natematica
 #ceil() #Redondea hacia arriba
 print (math.ceil(3.2)) #Redondea hacia arriba el 3.2 y lo convierte en 4
 
+
 import math
 numero_original = 3.4
 print(type(numero_original))
