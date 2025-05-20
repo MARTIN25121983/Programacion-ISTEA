@@ -6,6 +6,19 @@
 #Entorno virtual se creo en C:\Users\mario\mi_entorno_virtual
 ##https://www.programaenpython.com/miscelanea/crear-entornos-virtuales-en-python/
 
+import nmap
+
+scanner = nmap.PortScanner()
+
+ip = '192.168.0.14'
+puertos = '22-80'  # Puedes cambiar esto a '1-1024' o lo que necesites
+
+scanner.scan(ip, puertos)
+
+print(f"Escaneo de {ip} en puertos {puertos}:")
+for port in scanner[ip]['tcp']:
+    estado = scanner[ip]['tcp'][port]['state']
+    print(f"Puerto {port}/tcp: {estado}")
 
 ## pypi.org se busca modulos
 
